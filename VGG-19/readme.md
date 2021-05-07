@@ -2,3 +2,151 @@ Fruits Classification Using VGG-19
 
 Download Models at
 
+
+loss: 0.1761 - acc: 0.9728
+test acc: 0.9728124737739563
+
+[[164   0   0 ...   0   0   0]
+ [  0 148   0 ...   0   0   0]
+ [  0   0 160 ...   0   0   0]
+ ...
+ [  0   0   0 ... 158   0   0]
+ [  0   0   0 ...   0 249   0]
+ [  0   0   0 ...   0   0 157]]
+                     precision    recall  f1-score   support
+
+     Apple Braeburn       0.82      1.00      0.90       164
+ Apple Crimson Snow       1.00      1.00      1.00       148
+     Apple Golden 1       0.92      1.00      0.96       160
+     Apple Golden 2       0.92      1.00      0.96       164
+     Apple Golden 3       0.83      1.00      0.91       161
+ Apple Granny Smith       1.00      1.00      1.00       164
+    Apple Pink Lady       1.00      1.00      1.00       152
+        Apple Red 1       0.98      0.87      0.92       164
+        Apple Red 2       0.96      0.99      0.98       164
+        Apple Red 3       0.86      0.91      0.89       144
+Apple Red Delicious       1.00      1.00      1.00       166
+ Apple Red Yellow 1       0.96      0.96      0.96       164
+ Apple Red Yellow 2       1.00      1.00      1.00       219
+            Apricot       1.00      1.00      1.00       164
+            Avocado       1.00      1.00      1.00       143
+       Avocado ripe       1.00      1.00      1.00       166
+             Banana       0.97      1.00      0.99       166
+ Banana Lady Finger       1.00      1.00      1.00       152
+         Banana Red       1.00      0.97      0.98       166
+           Beetroot       1.00      0.62      0.77       150
+          Blueberry       1.00      1.00      1.00       154
+       Cactus fruit       1.00      0.97      0.98       166
+       Cantaloupe 1       0.90      1.00      0.95       164
+       Cantaloupe 2       1.00      1.00      1.00       164
+          Carambula       1.00      1.00      1.00       166
+        Cauliflower       1.00      1.00      1.00       234
+           Cherry 1       1.00      1.00      1.00       164
+           Cherry 2       1.00      1.00      1.00       246
+     Cherry Rainier       1.00      1.00      1.00       246
+   Cherry Wax Black       1.00      1.00      1.00       164
+     Cherry Wax Red       1.00      1.00      1.00       164
+  Cherry Wax Yellow       1.00      1.00      1.00       164
+           Chestnut       0.98      1.00      0.99       153
+         Clementine       1.00      1.00      1.00       166
+              Cocos       1.00      1.00      1.00       166
+               Corn       1.00      0.65      0.79       150
+          Corn Husk       1.00      0.92      0.96       154
+      Cucumber Ripe       1.00      1.00      1.00       130
+    Cucumber Ripe 2       1.00      1.00      1.00       156
+              Dates       1.00      1.00      1.00       166
+           Eggplant       1.00      0.84      0.91       156
+                Fig       1.00      1.00      1.00       234
+        Ginger Root       1.00      1.00      1.00        99
+         Granadilla       1.00      1.00      1.00       166
+         Grape Blue       1.00      1.00      1.00       328
+         Grape Pink       1.00      1.00      1.00       164
+        Grape White       1.00      1.00      1.00       166
+      Grape White 2       0.98      1.00      0.99       166
+      Grape White 3       1.00      1.00      1.00       164
+      Grape White 4       1.00      1.00      1.00       158
+    Grapefruit Pink       1.00      1.00      1.00       166
+   Grapefruit White       1.00      1.00      1.00       164
+              Guava       0.98      1.00      0.99       166
+           Hazelnut       0.97      1.00      0.98       157
+        Huckleberry       1.00      1.00      1.00       166
+               Kaki       1.00      1.00      1.00       166
+               Kiwi       1.00      1.00      1.00       156
+           Kohlrabi       1.00      1.00      1.00       157
+           Kumquats       1.00      1.00      1.00       166
+              Lemon       1.00      1.00      1.00       164
+        Lemon Meyer       1.00      1.00      1.00       166
+              Limes       1.00      1.00      1.00       166
+             Lychee       1.00      1.00      1.00       166
+          Mandarine       1.00      1.00      1.00       166
+              Mango       1.00      1.00      1.00       166
+          Mango Red       1.00      1.00      1.00       142
+          Mangostan       1.00      1.00      1.00       102
+           Maracuja       1.00      0.72      0.84       166
+ Melon Piel de Sapo       1.00      1.00      1.00       246
+           Mulberry       1.00      1.00      1.00       164
+          Nectarine       1.00      0.68      0.81       164
+     Nectarine Flat       0.84      1.00      0.91       160
+         Nut Forest       1.00      1.00      1.00       218
+          Nut Pecan       0.97      1.00      0.99       178
+          Onion Red       0.99      1.00      1.00       150
+   Onion Red Peeled       1.00      1.00      1.00       155
+        Onion White       1.00      1.00      1.00       146
+             Orange       1.00      1.00      1.00       160
+             Papaya       1.00      0.98      0.99       164
+      Passion Fruit       1.00      1.00      1.00       166
+              Peach       0.96      0.81      0.88       164
+            Peach 2       0.89      1.00      0.94       246
+         Peach Flat       0.94      1.00      0.97       164
+               Pear       1.00      0.80      0.89       164
+             Pear 2       1.00      0.97      0.99       232
+         Pear Abate       1.00      0.93      0.97       166
+       Pear Forelle       1.00      1.00      1.00       234
+        Pear Kaiser       0.94      1.00      0.97       102
+       Pear Monster       1.00      1.00      1.00       166
+           Pear Red       1.00      1.00      1.00       222
+         Pear Stone       0.93      1.00      0.97       237
+      Pear Williams       1.00      1.00      1.00       166
+             Pepino       1.00      1.00      1.00       166
+       Pepper Green       1.00      1.00      1.00       148
+      Pepper Orange       1.00      1.00      1.00       234
+         Pepper Red       1.00      1.00      1.00       222
+      Pepper Yellow       1.00      1.00      1.00       222
+           Physalis       1.00      1.00      1.00       164
+ Physalis with Husk       0.98      1.00      0.99       164
+          Pineapple       0.98      1.00      0.99       166
+     Pineapple Mini       1.00      1.00      1.00       163
+       Pitahaya Red       1.00      1.00      1.00       166
+               Plum       1.00      1.00      1.00       151
+             Plum 2       1.00      1.00      1.00       142
+             Plum 3       0.97      1.00      0.99       304
+        Pomegranate       0.91      1.00      0.95       164
+     Pomelo Sweetie       1.00      1.00      1.00       153
+         Potato Red       0.74      1.00      0.85       150
+  Potato Red Washed       1.00      1.00      1.00       151
+       Potato Sweet       1.00      1.00      1.00       150
+       Potato White       0.92      1.00      0.96       150
+             Quince       1.00      1.00      1.00       166
+           Rambutan       1.00      1.00      1.00       164
+          Raspberry       1.00      1.00      1.00       166
+         Redcurrant       1.00      1.00      1.00       164
+              Salak       1.00      1.00      1.00       162
+         Strawberry       1.00      1.00      1.00       164
+   Strawberry Wedge       1.00      0.99      0.99       246
+          Tamarillo       1.00      1.00      1.00       166
+            Tangelo       1.00      1.00      1.00       166
+           Tomato 1       1.00      1.00      1.00       246
+           Tomato 2       1.00      1.00      1.00       225
+           Tomato 3       1.00      1.00      1.00       246
+           Tomato 4       1.00      1.00      1.00       160
+  Tomato Cherry Red       1.00      1.00      1.00       164
+       Tomato Heart       1.00      1.00      1.00       228
+      Tomato Maroon       0.98      1.00      0.99       127
+      Tomato Yellow       1.00      1.00      1.00       153
+ Tomato not Ripened       1.00      1.00      1.00       158
+             Walnut       1.00      1.00      1.00       249
+         Watermelon       0.96      1.00      0.98       157
+
+           accuracy                           0.98     22688
+          macro avg       0.98      0.98      0.98     22688
+       weighted avg       0.99      0.98      0.98     22688
