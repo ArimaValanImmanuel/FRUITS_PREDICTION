@@ -2,6 +2,8 @@ Fruits Classification Using VGG-19
 
 Download Models at
 
+https://drive.google.com/drive/folders/1czgCYseOA7HAhPIZ9y-sAAs0YtU4Zw5c?usp=sharing
+
 
 loss: 0.1761 - acc: 0.9728
 test acc: 0.9728124737739563
